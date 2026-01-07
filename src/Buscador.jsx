@@ -3,6 +3,12 @@ export default function Buscador({buscar,verFavoritos}){
     const [texto,setTexto] = useState("");
     const [tipo,setTipo] = useState("");
 
+    useEffect(() => {
+        if (texto.length >= 3) {
+            buscar(texto, tipo);
+        }
+    }, [texto, tipo]);
+
 
     return(
         <>
