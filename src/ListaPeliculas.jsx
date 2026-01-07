@@ -1,4 +1,5 @@
 import MaquetaPeliculas from "./MaquetaPeliculas";
+import "./styles.css";
 
 export default function ListaPeliculas({ peliculas, onSeleccionar }) {
   return (

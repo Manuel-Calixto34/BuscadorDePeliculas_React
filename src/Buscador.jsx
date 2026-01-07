@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import "./styles.css";
 export default function Buscador({buscar,verFavoritos}){
     const [texto,setTexto] = useState("");
     const [tipo,setTipo] = useState("");

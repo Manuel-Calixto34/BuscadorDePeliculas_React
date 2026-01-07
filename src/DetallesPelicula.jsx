@@ -41,14 +41,6 @@ export default function DetallesPelicula({id, cerrar}){
                     <p>Sinopsis: {data.Plot}</p>
                     <p>Director: {data.Director}</p>
 
-                    <img
-                    src={
-                        favoritos.includes(data.imdbID)
-                        ? "/pngegg.png"
-                        : "/estrellanofav.png"
-                    }
-                    onClick={mostrarFavoritos}
-                    />
                 </div>
             </div>
         </>

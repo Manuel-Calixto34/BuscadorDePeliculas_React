@@ -64,33 +64,27 @@ img{
 }
 
 #detalles {
-    display: none; 
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0,0,0,0.7);
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.7);
+  display: grid;
+  place-items: center;
+  z-index: 1000;
 }
 
 #contenidoDetalles {
-    background-image: url(https://cdn.magicdecor.in/com/2023/02/29184224/image-1689504354-3016.jpg);
-    padding: 100px;
-    width: 60vw;
-    color: aqua;
-    max-width: 800px;
-    border-radius: 10px;
-    text-align: center;
-    position: relative;
+  background-image: url(https://cdn.magicdecor.in/com/2023/02/29184224/image-1689504354-3016.jpg);
+  padding: 30px;
+  max-width: 500px;
+  border-radius: 10px;
+  color: aqua;
 }
 
 #cerrar {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    cursor: pointer;
-    font-size: 25px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }

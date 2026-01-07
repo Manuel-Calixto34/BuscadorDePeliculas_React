@@ -4,6 +4,7 @@ import Buscador from "./Buscador";
 import ListaPeliculas from "./ListaPeliculas";
 import DetallesPelicula from "./DetallesPelicula";
 import UsePeliculas from "./UsePeliculas";
+import "./styles.css";
 
 export default function App() {
   const [mostrarLanding, setMostrarLanding] = useState(true);
